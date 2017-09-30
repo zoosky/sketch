@@ -1,0 +1,54 @@
+[HMR] Attempting websocket connection to http://localhost:3123
+sketch-fastopt.js:11899 main()
+sketch-fastopt.js:11899 creating proxy
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) write A
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) read {"value":"A"}
+index.js:425 [HMR] Websocket connection successful.
+sketch-fastopt.js:11899 change to B
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) write B
+sketch-fastopt.js:11899 {"value":"B"}
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) read {"value":"B"}
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) read {"value":"B"}
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) read {"value":"B"}
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) read {"value":"A"}
+sketch-fastopt.js:11899 change to A
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) write A
+sketch-fastopt.js:11899 {"value":"A"}
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) read {"value":"A"}
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) read {"value":"A"}
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) read {"value":"A"}
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) read {"value":"B"}
+sketch-fastopt.js:11899 change to B
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) write B
+sketch-fastopt.js:11899 {"value":"B"}
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) read {"value":"B"}
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) read {"value":"B"}
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) read {"value":"B"}
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) read {"value":"A"}
+sketch-fastopt.js:11901 main()
+sketch-fastopt.js:11901 updating proxy
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) read {"value":"B"}
+sketch-fastopt.js:11899 Sat Sep 30 2017 21:53:22 GMT+0100 (GMT Daylight Time) read {"value":"B"}
+index.js:511 [HMR] Error applying update $c_s_MatchError {s$1: null, e$1: null, stackTrace$1: null, objString$4: null, obj$4: $c_Lcom_jc776_sketch_example_ReactSwap$B$, …}
+(anonymous) @ index.js:511
+moduleHotApply @ index.js:376
+acceptNewModules @ index.js:509
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onevent @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:270
+Socket.onpacket @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:228
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Manager.ondecoded @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:332
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\socket.io-parser\node_modules\component-emitter\node_modules\socket.io-parser\node_modules\component-emitter\index.js:134
+Decoder.add @ node_modules\socket.io-parser\node_modules\socket.io-parser\index.js:246
+Manager.ondata @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:322
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onPacket @ socket.js:451
+(anonymous) @ socket.js:268
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Transport.onPacket @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:145
+Transport.onData @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:137
+ws.onmessage @ websocket.js:146
+index.js:514 [HMR] Updated modules (2) ["client\target\scala-2.12\sketch-fastopt.js", "client\index.js"]

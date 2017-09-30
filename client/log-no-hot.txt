@@ -1,0 +1,17 @@
+[HMR] Attempting websocket connection to http://localhost:3123
+sketch-fastopt.js:11823 main()
+index.js:425 [HMR] Websocket connection successful.
+sketch-fastopt.js:11823 change to B
+sketch-fastopt.js:11823 {"__":{}}
+sketch-fastopt.js:11823 change to A
+sketch-fastopt.js:11823 {"__":{}}
+sketch-fastopt.js:11823 change to B
+sketch-fastopt.js:11823 {"__":{}}
+sketch-fastopt.js:11825 main()
+index.js:514 [HMR] Updated modules (2) ["client\target\scala-2.12\sketch-fastopt.js", "client\index.js"]
+sketch-fastopt.js:11825 change to B
+sketch-fastopt.js:11825 {"__":{}}
+sketch-fastopt.js:11825 change to A
+sketch-fastopt.js:11825 {"__":{}}
+sketch-fastopt.js:11825 change to B
+sketch-fastopt.js:11825 {"__":{}}
