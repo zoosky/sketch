@@ -1,0 +1,16 @@
+target/
+node_modules/
+
+.settings/
+target-ide/
+bin/
+.classpath
+.project
+.cache-main
+
+yarn-error.log
+
+# :^)
+yarn.lock
+
+etc/
