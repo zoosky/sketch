@@ -11,13 +11,14 @@ import org.scalajs.dom
 object Sketch {
   @JSExport
   def main() {
-    println("main()")
-	hot.initialize()
-	val root = dom.document.getElementById("app")
-	
-	//val w = implicitly[me.shadaj.slinky.core.Writer[com.jc776.sketch.example.ReactSwap.Props]]
-
-    val _ = ReactDOM.render(ReactSwap( () ), root)
-	
+    try {
+		println("main()")
+		hot.initialize()
+		val root = dom.document.getElementById("app")
+		val _ = ReactDOM.render(ReactSwap( () ), root)
+	} catch { case (ex: Exception) =>
+	  ex.printStackTrace()
+	  throw ex
+	}
   }
 }
