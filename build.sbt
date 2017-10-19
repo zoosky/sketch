@@ -40,4 +40,4 @@ scalacOptions in ThisBuild ++= Seq(
 watchSources := { Seq() } 
 
 // * 2. "This file is derived, are you sure you want to edit it?"
-EclipseKeys.eclipseOutput in ThisBuild := Some("target-ide")
+//EclipseKeys.eclipseOutput in ThisBuild := Some("target-ide")
